@@ -1,0 +1,23 @@
+{
+  "name": "random-a11y-combo",
+  "description": "Get a random accessible color combination",
+  "author": "John Otander",
+  "version": "0.1.0",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": "johnotander/random-a11y-combo",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "get-contrast": "^2.0.0",
+    "random-hex-color": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "*"
+  }
+}
