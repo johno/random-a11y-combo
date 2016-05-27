@@ -15,6 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "get-contrast": "^2.0.0",
+    "is-present": "^1.0.0",
     "random-hex-color": "^1.0.0"
   },
   "devDependencies": {
