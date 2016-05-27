@@ -1,11 +1,11 @@
 'use strict'
 
-var randomHexColor = require('random-hex-color')
-var getContrast = require('get-contrast')
+const randomHexColor = require('random-hex-color')
+const getContrast = require('get-contrast')
 
-module.exports = function randomA11yCombo () {
-  var colorOne = randomHexColor()
-  var colorTwo = randomHexColor()
+module.exports = () => {
+  const colorOne = randomHexColor()
+  let colorTwo = randomHexColor()
 
   while (!getContrast.isAccessible(colorOne, colorTwo)) {
     colorTwo = randomHexColor()

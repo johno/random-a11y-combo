@@ -11,7 +11,7 @@ npm install --save random-a11y-combo
 ## Usage
 
 ```javascript
-var randomA11yCombo = require('random-a11y-combo')
+const randomA11yCombo = require('random-a11y-combo')
 
 randomA11yCombo()  // => ['#4e9d4d','#0b2352']
 ```
