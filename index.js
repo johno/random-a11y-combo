@@ -3,8 +3,8 @@
 var randomHexColor = require('random-hex-color')
 var getContrast = require('get-contrast')
 
-module.exports = function () {
-  var colorOne = randomHexColor()
+module.exports = function (colorOne) {
+  colorOne = colorOne || randomHexColor()
   var colorTwo = randomHexColor()
 
   while (!getContrast.isAccessible(colorOne, colorTwo)) {
