@@ -1,0 +1,95 @@
+{
+  "name": "johnotander/random-a11y-combo",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.19"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Brutalist",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BasicHeader",
+      "article": "article/MarkdownArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace",
+    "heading": {},
+    "typeScale": [
+      48,
+      32,
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "fluid": true
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/johnotander/random-a11y-combo",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/random-a11y-combo",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "random-a11y-combo",
+      "subhead": "Get a random accessible color combination",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "random-a11y-combo: Get a random accessible color combination",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "johnotander",
+          "repo": "random-a11y-combo"
+        }
+      ],
+      "text": "v1.0.0"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n\n<h2>Installation</h2>\n<pre>npm install --save random<span class=\"hljs-_\">-a</span>11y-combo</pre><h2>Usage</h2>\n<pre><span class=\"hljs-keyword\">const</span> randomA11yCombo = <span class=\"hljs-built_in\">require</span>(<span class=\"hljs-string\">&apos;random-a11y-combo&apos;</span>)\n\nrandomA11yCombo()  <span class=\"hljs-comment\">// =&gt; [&apos;#4e9d4d&apos;,&apos;#0b2352&apos;]</span>\nrandomA11yCombo(<span class=\"hljs-string\">&apos;#fff&apos;</span>)  <span class=\"hljs-comment\">// =&gt; [&apos;#fff&apos;,&apos;#444&apos;]</span></pre><h2>License</h2>\n<p>MIT</p>\n<h2>Contributing</h2>\n<ol>\n<li>Fork it</li>\n<li>Create your feature branch (<code>git checkout -b my-new-feature</code>)</li>\n<li>Commit your changes (<code>git commit -am &apos;Add some feature&apos;</code>)</li>\n<li>Push to the branch (<code>git push origin my-new-feature</code>)</li>\n<li>Create new Pull Request</li>\n</ol>\n<p>Crafted with &lt;3 by John Otander (<a href=\"https://twitter.com/4lpine\">@4lpine</a>).</p>\n<hr>\n<blockquote>\n<p>This package was initially generated with <a href=\"http://yeoman.io\">yeoman</a> and the <a href=\"https://github.com/johnotander/generator-p.git\">p generator</a>.</p>\n</blockquote>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/johnotander/random-a11y-combo",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/johnotander",
+          "text": "johnotander"
+        }
+      ]
+    }
+  ]
+}
